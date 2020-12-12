@@ -1,0 +1,16 @@
+/* Variables, functions, mixins */
+@import 'variables';
+
+/* Utilities & Base */
+@import 'utilities';
+@import 'typography';
+
+/* Main project */
+@import 'main';
+@import 'header';
+@import 'footer';
+
+
+/* Components */
+@import 'hero';
+@import 'buttons';

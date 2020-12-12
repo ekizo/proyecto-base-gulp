@@ -1,0 +1,31 @@
+.btn{
+    padding: $btn-padding;
+    border: 1px solid transparent;
+    color: $primary;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: $btn-border-radius;
+    transition: all .3s ease;
+    & + .btn{
+        margin-left: $gutter;
+    }
+}
+
+.btn-primary{
+    background-color: $primary;
+    color: $white;
+    &:hover{
+        background-color: darken($primary, 5%);
+    }
+}
+
+.btn-primary-outline{
+    border-color: $primary;
+    color: $primary;
+    &:hover{
+        border-color: darken($primary, 10%);
+        color: darken($primary, 10%);
+
+    }
+}
+

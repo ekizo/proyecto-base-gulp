@@ -1,0 +1,40 @@
+/* Colors */
+$primary:       purple;
+$secondary:     pink;
+$succes:        green;
+$danger:        red;
+$warning:       yellow;
+$info:          blue;
+
+/* Grays */
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+/* Fonts & Typo */
+$font-family: 'Roboto', sans-serif;
+$font-size: 16px;
+$font-color: #404040;
+$font-lead-size: 1.25rem;  
+
+/* Layout */
+$bg-color: $gray-300;
+$screen-md-min: 992px;
+
+/* Utilities */
+$gutter: 15px;
+
+/* Border */
+$border-radius: 8px;
+
+/* Buttons */
+$btn-padding:   8px 16px;
+$btn-border-radius: 4px;
